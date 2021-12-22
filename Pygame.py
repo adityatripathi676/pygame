@@ -1,11 +1,7 @@
 import random
-
 chance = 10
-
 number_of_chance = 0
-
 computer_point = 0
-
 your_point = 0
 
 char = ["snake", "water", "gun"]
