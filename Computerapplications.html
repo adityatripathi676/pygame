@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./rj.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>ranjanfretilizers.com</title>
+</head>
+
+<body>
+  <style>
+    body {
+      animation: fadeInAnimation ease 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+
+  <!-- social media icon  -->
+  <div class="icon-bar">
+    <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.twitter.com" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.google.com/Ranjan-Fertilizers" target="_blank" class="google"><i class="fa fa-google"></i></a>
+    <a href="https://www.linkedin.com" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.youtube.com" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
+
+  <div class="se-pre-con" id="Top"></div>
+  <header class="headbox">
+    <div class="headbox_container">
+      <a class="logo">
+        <span class="logo_ranjan">&#x0211D;</span>
+        <span class="logo_text">- 𝙍𝙖𝙣𝙟𝙖𝙣 𝙁𝙚𝙧𝙩𝙞𝙡𝙞𝙯𝙚𝙧𝙨
+        </span>
+      </a>
+      <nav class="navbar">
+        <a href="#" class="nav_home">HOME</a>
+        <a href="#Contact" class="nav_contact">CONTACT</a>
+        <a href="#" class="nav_services">SERVICES</a>
+        <a href="#About_us" class=nav_about">ABOUT</a>
+      </nav>
+      <button class="header_enroll_btn">𝙀𝙣𝙧𝙤𝙡𝙡 𝙉𝙤𝙬
+
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="enroll_arrow" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+
+<div class="google_search">
+  <script async src="https://cse.google.com/cse.js?cx=d324c1e12e7ceef41"></script>
+  <div class="gcse-search"></div>
+</div>
+
+
+
+  <section class="body_head1">
+    <div class="body_head1_box">
+      <div class="h1_txt_btn">
+        <h1 class="h1_welcome">Welcome
+          <br> Protect plants from pesticides ,
+          Use Good Quality
+
+        </h1>
+        <p class="h1_welcome_para">Fertilizer is a natural or synthetic substance that is applied to the soil or
+          the plants to improve growth and productivity. They provide nutrients to the plants.
+          .</p>
+        <div class="h1_btn">
+          <button class="h1_btn_txt">Details</button>
+          <button class="h1_btn_txt">know
+            more</red>
+        </div>
+      </div>
+      <div class="body_img1 fadeIn">
+        <img class="body_img1_main" alt="hero" src="https://source.unsplash.com/420x300/?nature,plants,trees">
+      </div>
+  <section>
+    <div id="clock">
+      <p class="date">{{ date }}</p>
+      <p class="time">{{ time }}</p>
+      <p class="text">Aditya Tripathi</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+    <script src=""></script>
+  
+    <script type="text/javascript" id="dcoder_script">var clock = new Vue({
+        el: '#clock',
+        data: {
+          time: '',
+          date: ''
+        }
+      });
+  
+      var week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+      var timerID = setInterval(updateTime, 1000);
+      updateTime();
+      function updateTime() {
+        var cd = new Date();
+        clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
+        clock.date = zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth() + 1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()];
+      };
+  
+      function zeroPadding(num, digit) {
+        var zero = '';
+        for (var i = 0; i < digit; i++) {
+          zero += '0';
+        }
+        return (zero + num).slice(-digit);
+      }</script>
+  </section>
+  </section>
+  <div class="wrapper">
+    <div class="icon facebook">
+      <div class="tooltip">Facebook</div>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </div>
+    <div class="icon twitter">
+      <div class="tooltip">Twitter</div>
+      <span><i class="fab fa-twitter"></i></span>
+    </div>
+    <div class="icon instagram">
+      <div class="tooltip">Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </div>
+    <div class="icon github">
+      <div class="tooltip">Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </div>
+    <div class="icon youtube">
+      <div class="tooltip">Youtube</div>
+      <span><i class="fab fa-youtube"></i></span>
+    </div>
+  </div>
+
+  <hr style="width: 25%;">
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="quote1">
+        <i class="fas fa-quote-left">
+          <p class="quote1_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, in minima
+            nesciunt animi voluptatem dicta magnam repellendus doloremque.!</p><i class="fas fa-quote-right"></i>
+        </i>
+        <div class="author1">
+          <span>~~</span>
+          <span>Ranjan-Fertilizers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="practice">
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
+          <p class="leading-relaxed">Users</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
+          <p class="leading-relaxed">Subscribes</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
+          <p class="leading-relaxed">Downloads</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">4</h2>
+          <p class="leading-relaxed">Products</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <div class="ps">
+    <div class="card">
+      <div class="circle-photo">
+        <img src="https://www.ponsist.com/images/person-unknown.png" alt="Profile pic" class="t" width="180" height="180px">
+      </div>
+  <div class="paragarph-center">
+  <h1 class="title">name</h1>
+  <p class="positon">Position</p>
+    <h5>"Anything"</h5>
+   </div>
+</div>
+</div>
+
+  <hr>
+  <section class="contact_section" id="Contact">
+    <form action="mailto:aditya.tripathi7631@gmail.com" class="contact_form_body">
+      <div class="contact_img_2">
+      <img src="https://bcsproject56.files.wordpress.com/2021/07/pexels-photo-326576.jpeg" alt="Contact Image">
+      </div>
+      <fieldset class="contact_form">
+        <legend class="legend_contact">𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙪𝙨</legend>
+        <label for="fname" class="contact_labels">𝐅𝐢𝐫𝐬𝐭 𝐍𝐚𝐦𝐞 : </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name: " class="contact_inputs"
+          required>
+
+        <label for="lname" class="contact_labels">𝐋𝐚𝐬𝐭 𝐍𝐚𝐦𝐞 : </label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name: " class="contact_inputs" required>
+
+        <label for="phone_no" min="0" max="1000000000" class="contact_labels">𝐏𝐡𝐨𝐧𝐞 𝐍𝐮𝐦𝐛𝐞𝐫 : </label>
+        <input type="tel" name="Phone_number" id="phone_no" placeholder="Enter your Phone Number: | Format: 0123456789 "
+          class="contact_inputs" pattern="[0-9]{10}" required>
+
+        <label for="email_Address" class="contact_labels">𝐄-𝐦𝐚𝐢𝐥: </label>
+        <input type="email" name="Email-Address" id="Address" placeholder="Enter your Address " class="contact_inputs"
+          required>
+
+        <label for="contact_comments" class="contact_labels">𝐂𝐨𝐦𝐦𝐞𝐧𝐭: </label>
+        <textarea name="Contact_comment" id="contact_comment" required></textarea>
+
+        <div class="form_buttons">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <hr>
+  <footer>
+    <div class="About_us">
+      <address>
+        <pre>
+      aditya.tripathi7631@gmail.com
+      94xxxxxx26
+      Ramnagar
+      Near polytechnic chowk
+      Purnea, Bihar 854301
+      India
+      </pre>
+      </address>
+    </div>
+  </footer>
+</body>
+
+</html>
